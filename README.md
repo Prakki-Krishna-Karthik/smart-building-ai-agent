@@ -152,3 +152,7 @@ before each simulation and stores captured process output in its result.
 
 Use focused branches and small commits. Add tests alongside each adapter and
 controller implementation, and keep generated EnergyPlus outputs out of Git.
+
+
+Note: Independent hackathon prototype. Not affiliated with, sponsored by,
+or endorsed by Honeywell International Inc. Just for hackathon purpose the name has Honeywell dashboard.
