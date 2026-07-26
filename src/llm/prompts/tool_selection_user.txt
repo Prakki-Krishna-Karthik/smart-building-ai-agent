@@ -1,0 +1,21 @@
+Select the next safe action for the building agent.
+
+Available tools:
+{tool_catalog}
+
+Current context:
+{context_json}
+
+Previous tool calls and results:
+{history_json}
+
+Use only a tool name from the supplied catalog when additional evidence or
+execution is required. Return a final recommendation only after reviewing the
+available building state and runtime diagnostics. Select only a registered tool
+name and high-level intent; do not provide arguments, paths, or invented tools.
+
+For a recommendation, use exactly this schema and no other action fields:
+{"action":"recommendation","reasoning":"...","actions":[{"zone":"...","parameter":"Cooling Setpoint","current":24,"recommended":24.5,"priority":"Medium","expected_energy_change":"-1%"}]}
+
+If context.final_decision_required is true, stop gathering evidence and return
+the final recommendation object immediately. Do not return a tool action.

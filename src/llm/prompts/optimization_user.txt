@@ -1,0 +1,4 @@
+Review this serialized BuildingState and return the required JSON object only.
+
+BuildingState:
+{building_state_json}

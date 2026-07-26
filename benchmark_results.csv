@@ -1,0 +1,6 @@
+run,baseline_energy,optimized_energy,savings_percentage,llm_recommendations_generated,recommendations_applied,energyplus_exit_code,fallback_or_llm_rejection,pipeline_success,error
+latest_e2e_trace7,156636468279.3707,150372369274.45862,4.0,2,2,0,False,True,
+latest_e2e_trace8,156636468279.3707,153077915626.93158,2.27,2,2,0,False,True,
+latest_e2e_trace9,156636468279.3707,147977930613.8437,5.53,2,2,0,False,True,
+latest_e2e_trace10,156636468279.3707,153077915626.93158,2.27,1,1,0,False,True,
+latest_e2e_trace11,156636468279.3707,153077915626.93158,2.27,1,1,0,False,True,
