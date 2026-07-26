@@ -59,7 +59,7 @@ streamlit run src/dashboard/app.py
 
 - GitHub repository: https://github.com/Prakki-Krishna-Karthik/smart-building-ai-agent
 - Demonstration video: https://drive.google.com/file/d/1gAWvdqjXP3XGLajKUaHfdbsI5GxqxSBc/view?usp=drive_link
-- Final presentation: [deliverables/Honeywell_Smart_Building_AI_Agent_Final.pptx](deliverables/Honeywell_Smart_Building_AI_Agent_Final.pptx)
+
 
 The verified MediumOffice demonstration achieved 2.24% measured energy savings
 with two recommendations applied. Comfort and prediction validation are shown
@@ -94,7 +94,7 @@ summaries, and stores artifacts under `data/output`.
 - Make every control-loop iteration observable through structured logs and
   persisted output artifacts.
 
-See [docs/architecture.md](docs/architecture.md) for the initial boundaries.
+
 
 ## EnergyPlus output parsing
 
